@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 400" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0A66C2;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#00D4FF;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#6C5CE7;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  <path d="M0,160 Q320,100 640,160 T1280,160 T1920,160 L1920,400 L0,400 Z" fill="url(#waveGrad)">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite" values="
+      M0,160 Q320,100 640,160 T1280,160 T1920,160 L1920,400 L0,400 Z;
+      M0,140 Q320,200 640,140 T1280,140 T1920,140 L1920,400 L0,400 Z;
+      M0,160 Q320,100 640,160 T1280,160 T1920,160 L1920,400 L0,400 Z"/>
+  </path>
+  <path d="M0,200 Q320,140 640,200 T1280,200 T1920,200 L1920,400 L0,400 Z" fill="url(#waveGrad)" opacity="0.5">
+    <animate attributeName="d" dur="12s" repeatCount="indefinite" values="
+      M0,200 Q320,140 640,200 T1280,200 T1920,200 L1920,400 L0,400 Z;
+      M0,180 Q320,240 640,180 T1280,180 T1920,180 L1920,400 L0,400 Z;
+      M0,200 Q320,140 640,200 T1280,200 T1920,200 L1920,400 L0,400 Z"/>
+  </path>
+</svg>

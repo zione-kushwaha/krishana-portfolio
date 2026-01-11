@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A66C2;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00D4FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6C5CE7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer circle -->
+  <circle cx="200" cy="200" r="180" fill="url(#logoGrad)"/>
+  
+  <!-- Letter K -->
+  <path d="M140,120 L140,280 L160,280 L160,210 L220,280 L250,280 L180,200 L245,120 L215,120 L160,180 L160,120 Z" 
+        fill="white" 
+        stroke="white" 
+        stroke-width="2"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="200" cy="200" r="185" fill="none" stroke="#FFD60A" stroke-width="3" opacity="0.5"/>
+  <circle cx="200" cy="200" r="170" fill="none" stroke="white" stroke-width="1" opacity="0.3"/>
+</svg>

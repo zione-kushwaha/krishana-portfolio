@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "151425170012",
+    "project_id": "porfolio-7d21b",
+    "storage_bucket": "porfolio-7d21b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151425170012:android:4646b0b15253ae8d250499",
+        "android_client_info": {
+          "package_name": "com.example.krishna"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd4-Xafl1pvSfSC_KvAQ47NIC_P1W-N80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

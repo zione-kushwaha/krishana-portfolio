@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bridgeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#708090;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2F4F4F;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4682B4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E3A5F;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="skyGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFA07A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF6B35;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky -->
+  <rect width="1200" height="500" fill="url(#skyGrad2)"/>
+  
+  <!-- Water -->
+  <rect y="500" width="1200" height="300" fill="url(#waterGrad)"/>
+  
+  <!-- Bridge Pillars -->
+  <rect x="200" y="300" width="80" height="500" fill="url(#bridgeGrad)"/>
+  <rect x="520" y="280" width="80" height="520" fill="url(#bridgeGrad)"/>
+  <rect x="840" y="300" width="80" height="500" fill="url(#bridgeGrad)"/>
+  
+  <!-- Bridge Deck -->
+  <rect x="0" y="380" width="1200" height="40" fill="url(#bridgeGrad)"/>
+  
+  <!-- Cable Stays -->
+  <line x1="240" y1="200" x2="100" y2="380" stroke="#FFD700" stroke-width="4"/>
+  <line x1="240" y1="200" x2="200" y2="380" stroke="#FFD700" stroke-width="4"/>
+  <line x1="240" y1="200" x2="300" y2="380" stroke="#FFD700" stroke-width="4"/>
+  <line x1="240" y1="200" x2="400" y2="380" stroke="#FFD700" stroke-width="4"/>
+  
+  <line x1="560" y1="180" x2="450" y2="380" stroke="#FFD700" stroke-width="4"/>
+  <line x1="560" y1="180" x2="550" y2="380" stroke="#FFD700" stroke-width="4"/>
+  <line x1="560" y1="180" x2="650" y2="380" stroke="#FFD700" stroke-width="4"/>
+  <line x1="560" y1="180" x2="750" y2="380" stroke="#FFD700" stroke-width="4"/>
+  
+  <line x1="880" y1="200" x2="800" y2="380" stroke="#FFD700" stroke-width="4"/>
+  <line x1="880" y1="200" x2="900" y2="380" stroke="#FFD700" stroke-width="4"/>
+  <line x1="880" y1="200" x2="1000" y2="380" stroke="#FFD700" stroke-width="4"/>
+  <line x1="880" y1="200" x2="1100" y2="380" stroke="#FFD700" stroke-width="4"/>
+  
+  <!-- Towers -->
+  <rect x="220" y="100" width="40" height="280" fill="url(#bridgeGrad)"/>
+  <rect x="540" y="80" width="40" height="300" fill="url(#bridgeGrad)"/>
+  <rect x="860" y="100" width="40" height="280" fill="url(#bridgeGrad)"/>
+  
+  <!-- Water Waves -->
+  <path d="M0,600 Q50,580 100,600 T200,600 T300,600 T400,600 T500,600 T600,600 T700,600 T800,600 T900,600 T1000,600 T1100,600 T1200,600" 
+        fill="none" stroke="#87CEEB" stroke-width="3" opacity="0.5"/>
+  
+  <!-- Text -->
+  <text x="600" y="750" font-family="Arial" font-size="36" fill="#FFD700" text-anchor="middle" font-weight="bold">BRIDGE ENGINEERING PROJECT</text>
+</svg>

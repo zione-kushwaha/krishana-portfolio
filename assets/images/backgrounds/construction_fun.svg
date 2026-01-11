@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="concreteGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C0C0C0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#808080;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="mixerGrad">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </radialGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="2" fill="#696969" opacity="0.3"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="#E8E8E8"/>
+  <rect width="1920" height="1080" fill="url(#dots)"/>
+  
+  <!-- Ground -->
+  <rect y="900" width="1920" height="180" fill="#8B7355"/>
+  
+  <!-- Concrete Mixer Truck -->
+  <g transform="translate(700, 700)">
+    <!-- Truck Body -->
+    <rect x="0" y="100" width="300" height="120" fill="#FF6B35" rx="10"/>
+    <!-- Windows -->
+    <rect x="250" y="110" width="40" height="50" fill="#87CEEB"/>
+    <!-- Wheels -->
+    <circle cx="50" cy="240" r="35" fill="#2C3E50"/>
+    <circle cx="50" cy="240" r="20" fill="#696969"/>
+    <circle cx="250" cy="240" r="35" fill="#2C3E50"/>
+    <circle cx="250" cy="240" r="20" fill="#696969"/>
+    <!-- Mixer Drum -->
+    <ellipse cx="150" cy="80" rx="80" ry="70" fill="url(#mixerGrad)"/>
+    <ellipse cx="150" cy="80" rx="60" ry="50" fill="url(#concreteGrad)"/>
+    <!-- Stripes on Drum -->
+    <rect x="110" y="30" width="15" height="100" fill="#FF6B35" transform="rotate(30 150 80)"/>
+    <rect x="150" y="30" width="15" height="100" fill="#FFFFFF" transform="rotate(30 150 80)"/>
+    <rect x="190" y="30" width="15" height="100" fill="#FF6B35" transform="rotate(30 150 80)"/>
+  </g>
+  
+  <!-- Construction Workers -->
+  <g transform="translate(400, 800)">
+    <!-- Worker 1 -->
+    <circle cx="0" cy="0" r="25" fill="#FFD700"/> <!-- Helmet -->
+    <rect x="-15" y="25" width="30" height="50" fill="#0A66C2"/> <!-- Body -->
+    <rect x="-20" y="35" width="40" height="5" fill="#FFD700"/> <!-- Vest -->
+  </g>
+  
+  <g transform="translate(1200, 800)">
+    <!-- Worker 2 -->
+    <circle cx="0" cy="0" r="25" fill="#FFD700"/>
+    <rect x="-15" y="25" width="30" height="50" fill="#0A66C2"/>
+    <rect x="-20" y="35" width="40" height="5" fill="#FFD700"/>
+  </g>
+  
+  <!-- Construction Equipment -->
+  <!-- Wheelbarrow -->
+  <g transform="translate(250, 850)">
+    <polygon points="0,20 60,0 80,40 10,50" fill="#696969"/>
+    <circle cx="65" cy="50" r="15" fill="#2C3E50"/>
+  </g>
+  
+  <!-- Safety Cones -->
+  <polygon points="1400,950 1380,1000 1420,1000" fill="#FF6B35"/>
+  <rect x="1395" y="1000" width="10" height="20" fill="#2C3E50"/>
+  
+  <polygon points="1500,950 1480,1000 1520,1000" fill="#FF6B35"/>
+  <rect x="1495" y="1000" width="10" height="20" fill="#2C3E50"/>
+  
+  <!-- Tools -->
+  <!-- Hammer -->
+  <g transform="translate(150, 600)">
+    <rect x="0" y="0" width="20" height="100" fill="#8B4513"/>
+    <rect x="-15" y="-20" width="50" height="25" fill="#696969"/>
+  </g>
+  
+  <!-- Level Tool -->
+  <rect x="1600" y="600" width="200" height="30" fill="#FFD700" rx="5"/>
+  <circle cx="1700" cy="615" r="8" fill="#00D4FF"/>
+  
+  <!-- Text -->
+  <text x="960" y="300" font-family="Arial, sans-serif" font-size="72" fill="#FF6B35" text-anchor="middle" font-weight="bold">CIVIL ENGINEERING</text>
+  <text x="960" y="380" font-family="Arial, sans-serif" font-size="48" fill="#0A66C2" text-anchor="middle">Building The Future</text>
+  
+  <!-- Fun Elements -->
+  <text x="100" y="500" font-family="Arial, sans-serif" font-size="36" fill="#696969">⚒️</text>
+  <text x="1700" y="500" font-size="36">🏗️</text>
+  <text x="900" y="180" font-size="36">👷</text>
+</svg>

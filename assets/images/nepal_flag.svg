@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <!-- Red background -->
+  <rect width="500" height="600" fill="#DC143C"/>
+  
+  <!-- Blue border -->
+  <rect width="500" height="600" fill="none" stroke="#003580" stroke-width="15"/>
+  
+  <!-- Top triangle (upper triangle of flag) -->
+  <polygon points="250,75 400,225 100,225" fill="#003580"/>
+  
+  <!-- Bottom triangle (lower triangle of flag) -->
+  <polygon points="250,300 400,450 100,450" fill="#003580"/>
+  
+  <!-- White circle in upper triangle -->
+  <circle cx="250" cy="150" r="45" fill="white"/>
+  
+  <!-- White crescent in lower triangle -->
+  <g transform="translate(250, 375)">
+    <circle cx="0" cy="0" r="45" fill="white"/>
+    <circle cx="15" cy="-5" r="42" fill="#003580"/>
+  </g>
+</svg>

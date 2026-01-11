@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="roadGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2C3E50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34495E;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="skyGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#87CEEB;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky -->
+  <rect width="1200" height="600" fill="url(#skyGrad3)"/>
+  
+  <!-- Ground -->
+  <rect y="600" width="1200" height="200" fill="#228B22"/>
+  
+  <!-- Road (perspective) -->
+  <path d="M200,800 L400,600 L800,600 L1000,800 Z" fill="url(#roadGrad)"/>
+  
+  <!-- Road Markings -->
+  <rect x="580" y="620" width="40" height="60" fill="#FFD700"/>
+  <rect x="580" y="700" width="40" height="60" fill="#FFD700"/>
+  <rect x="580" y="780" width="40" height="20" fill="#FFD700"/>
+  
+  <!-- Side Lines -->
+  <line x1="400" y1="600" x2="200" y2="800" stroke="#FFFFFF" stroke-width="8"/>
+  <line x1="800" y1="600" x2="1000" y2="800" stroke="#FFFFFF" stroke-width="8"/>
+  
+  <!-- Trees -->
+  <circle cx="100" cy="650" r="40" fill="#228B22"/>
+  <rect x="90" y="680" width="20" height="60" fill="#8B4513"/>
+  
+  <circle cx="1100" cy="650" r="40" fill="#228B22"/>
+  <rect x="1090" y="680" width="20" height="60" fill="#8B4513"/>
+  
+  <!-- Traffic Signs -->
+  <circle cx="350" cy="550" r="30" fill="#FF6B35" stroke="#FFFFFF" stroke-width="4"/>
+  <text x="350" y="565" font-family="Arial" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold">60</text>
+  <rect x="340" y="580" width="20" height="80" fill="#708090"/>
+  
+  <!-- Streetlights -->
+  <rect x="280" y="500" width="10" height="150" fill="#696969"/>
+  <circle cx="285" cy="490" r="20" fill="#FFD700" opacity="0.8"/>
+  
+  <rect x="910" y="500" width="10" height="150" fill="#696969"/>
+  <circle cx="915" cy="490" r="20" fill="#FFD700" opacity="0.8"/>
+  
+  <!-- Text -->
+  <text x="600" y="150" font-family="Arial" font-size="48" fill="#FFFFFF" text-anchor="middle" font-weight="bold">HIGHWAY PROJECT</text>
+  <text x="600" y="200" font-family="Arial" font-size="24" fill="#FFFFFF" text-anchor="middle">Transportation Engineering</text>
+</svg>
