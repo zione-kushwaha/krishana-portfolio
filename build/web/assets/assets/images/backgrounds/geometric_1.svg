@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="geomGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6C5CE7;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#00D4FF;stop-opacity:0.05" />
+    </linearGradient>
+  </defs>
+  <!-- Triangles -->
+  <polygon points="200,100 350,350 50,350" fill="url(#geomGrad1)" opacity="0.3"/>
+  <polygon points="1600,200 1750,450 1450,450" fill="url(#geomGrad1)" opacity="0.25"/>
+  <polygon points="900,700 1050,950 750,950" fill="url(#geomGrad1)" opacity="0.2"/>
+  <!-- Circles -->
+  <circle cx="1500" cy="800" r="120" fill="none" stroke="#0A66C2" stroke-width="3" opacity="0.15"/>
+  <circle cx="300" cy="700" r="80" fill="none" stroke="#FF6B35" stroke-width="2" opacity="0.2"/>
+  <circle cx="1700" cy="300" r="60" fill="none" stroke="#6C5CE7" stroke-width="2" opacity="0.15"/>
+  <!-- Hexagons -->
+  <polygon points="500,500 550,475 600,500 600,550 550,575 500,550" fill="none" stroke="#00D4FF" stroke-width="2" opacity="0.2"/>
+  <polygon points="1200,300 1270,265 1340,300 1340,370 1270,405 1200,370" fill="none" stroke="#FF006E" stroke-width="2" opacity="0.15"/>
+</svg>

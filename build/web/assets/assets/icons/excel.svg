@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect x="15" y="25" width="70" height="50" rx="3" fill="#217346" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="25" y="35" width="15" height="10" fill="#FFFFFF"/>
+  <rect x="45" y="35" width="15" height="10" fill="#FFFFFF"/>
+  <rect x="65" y="35" width="10" height="10" fill="#FFFFFF"/>
+  <rect x="25" y="50" width="15" height="10" fill="#FFFFFF"/>
+  <rect x="45" y="50" width="30" height="10" fill="#FFFFFF"/>
+  <text x="50" y="90" font-family="Arial" font-size="14" fill="#217346" text-anchor="middle" font-weight="bold">XLS</text>
+</svg>

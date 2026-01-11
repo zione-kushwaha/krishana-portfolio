@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="buildingGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2C5F8D;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="buildingGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#50C878;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E8B57;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="craneGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky Background -->
+  <rect width="1920" height="1080" fill="url(#skyGrad)"/>
+  
+  <!-- Sun -->
+  <circle cx="1700" cy="200" r="80" fill="#FFD700" opacity="0.8"/>
+  
+  <!-- Buildings Under Construction -->
+  <!-- Building 1 -->
+  <rect x="200" y="400" width="250" height="680" fill="url(#buildingGrad1)"/>
+  <rect x="220" y="420" width="50" height="60" fill="#87CEEB" opacity="0.7"/>
+  <rect x="290" y="420" width="50" height="60" fill="#87CEEB" opacity="0.7"/>
+  <rect x="360" y="420" width="50" height="60" fill="#87CEEB" opacity="0.7"/>
+  <rect x="220" y="500" width="50" height="60" fill="#87CEEB" opacity="0.7"/>
+  <rect x="290" y="500" width="50" height="60" fill="#87CEEB" opacity="0.7"/>
+  <rect x="360" y="500" width="50" height="60" fill="#87CEEB" opacity="0.7"/>
+  
+  <!-- Building 2 -->
+  <rect x="500" y="300" width="300" height="780" fill="url(#buildingGrad2)"/>
+  <rect x="530" y="330" width="60" height="70" fill="#87CEEB" opacity="0.7"/>
+  <rect x="610" y="330" width="60" height="70" fill="#87CEEB" opacity="0.7"/>
+  <rect x="690" y="330" width="60" height="70" fill="#87CEEB" opacity="0.7"/>
+  
+  <!-- Building 3 -->
+  <rect x="900" y="350" width="280" height="730" fill="url(#buildingGrad1)"/>
+  
+  <!-- Construction Crane -->
+  <rect x="1200" y="200" width="30" height="600" fill="url(#craneGrad)"/>
+  <rect x="1000" y="180" width="400" height="20" fill="url(#craneGrad)"/>
+  <rect x="1380" y="200" width="20" height="150" fill="url(#craneGrad)"/>
+  <line x1="1390" y1="350" x2="1300" y2="500" stroke="#333" stroke-width="3"/>
+  
+  <!-- Scaffolding -->
+  <g opacity="0.6">
+    <line x1="450" y1="400" x2="450" y2="1080" stroke="#FF6B35" stroke-width="4"/>
+    <line x1="480" y1="400" x2="480" y2="1080" stroke="#FF6B35" stroke-width="4"/>
+    <line x1="450" y1="500" x2="480" y2="500" stroke="#FF6B35" stroke-width="3"/>
+    <line x1="450" y1="650" x2="480" y2="650" stroke="#FF6B35" stroke-width="3"/>
+    <line x1="450" y1="800" x2="480" y2="800" stroke="#FF6B35" stroke-width="3"/>
+  </g>
+  
+  <!-- Ground/Road -->
+  <rect x="0" y="1000" width="1920" height="80" fill="#696969"/>
+  <line x1="0" y1="1040" x2="1920" y2="1040" stroke="#FFD700" stroke-width="4" stroke-dasharray="40,20"/>
+  
+  <!-- Construction Workers (Simple) -->
+  <circle cx="600" cy="980" r="20" fill="#FF6B35"/>
+  <rect x="590" y="1000" width="20" height="40" fill="#0A66C2"/>
+  <circle cx="900" cy="980" r="20" fill="#FF6B35"/>
+  <rect x="890" y="1000" width="20" height="40" fill="#0A66C2"/>
+</svg>

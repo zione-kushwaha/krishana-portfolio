@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <pattern id="hexPattern" x="0" y="0" width="50" height="43.3" patternUnits="userSpaceOnUse">
+      <polygon points="25,0 50,14.43 50,28.87 25,43.3 0,28.87 0,14.43" fill="none" stroke="#00D4FF" stroke-width="0.5" opacity="0.2"/>
+    </pattern>
+  </defs>
+  <rect width="200" height="200" fill="url(#hexPattern)"/>
+</svg>
