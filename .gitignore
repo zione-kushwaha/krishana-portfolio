@@ -45,3 +45,6 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Prevent committing a local Flutter SDK clone (should be provided by CI build)
+/flutter/
